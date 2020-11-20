@@ -13,3 +13,5 @@ double getAvg(char csvfile[], char column[]); Given a CSVfile, return the averag
 int getCount(char csvfile[], char column[], double threshold); Given a CSVfile, return the number of students with their specified score >= threshold.The blank cells are excluded from the calculation.
 
 double getGrade(char csvfile[], char first[], char last[]); Given a CSV file, return the weighted average of the specified student. The weight for each column is specified in the corresponding column heading within the parentheses(points). A blank cell is viewed as 0 in the calculation.
+
+We were provided the csv file and the main.c file.
